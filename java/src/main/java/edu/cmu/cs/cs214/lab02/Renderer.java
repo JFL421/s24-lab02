@@ -18,7 +18,7 @@ import edu.cmu.cs.cs214.lab02.shapes.*;
 //     }
 // }
 public class Renderer {
-    public Shape shape;
+    private Shape shape;
     
     Renderer(Shape shape) {
         this.shape = shape;
